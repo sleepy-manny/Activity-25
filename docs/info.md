@@ -9,12 +9,12 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+The circuit is a 1-bit full adder. It adds inputs A, B and Cin (carry in) and produces Sum and Cout (carry out). Sum is A XOR B XOR Cin. Cout is 1 when at least two of the three inputs are 1.
 
 ## How to test
 
-Explain how to use your project
+Set A, B and Cin with the input switches and check the Sum and Cout LEDs against the full adder truth table. For example, A=1, B=1, Cin=0 gives Sum=0 and Cout=1.
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+Two LEDs, one on the Sum output pin and one on the Cout output pin. No other external hardware is needed.
