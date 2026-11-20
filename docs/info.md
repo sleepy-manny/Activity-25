@@ -9,8 +9,7 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-The circuit is a 1-bit full adder. It adds inputs A, B and Cin (carry in) and produces Sum and Cout (carry out). Sum is A XOR B XOR Cin. Cout is 1 when at least two of the three inputs are 1.
-
+The circuit is a 1-bit full adder. It adds inputs A, B and Cin and produces Sum and Cout. Sum is A XOR B XOR Cin. Cout is 1 when at least two of the three inputs are 1.
 ## How to test
 
 Set A, B and Cin with the input switches and check the Sum and Cout LEDs against the full adder truth table. For example, A=1, B=1, Cin=0 gives Sum=0 and Cout=1.
